@@ -1,0 +1,27 @@
+.big {
+    font-size: 200px;
+}
+
+.medium {
+    font-size: 100px;
+}
+
+.small {
+    font-size: 50px;
+}
+
+.verysmall {
+    font-size: 25px;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.right-margin {
+    margin-right: 100px;
+}
+
+body {
+    font-family: sans-serif;
+}
