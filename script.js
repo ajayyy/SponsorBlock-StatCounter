@@ -28,6 +28,8 @@ async function main() {
                 // In hours
                 const eta =  (target - result.totalSubmissions) / (rpm * 60);
                 etaElem.innerText = eta;
+
+                if (result.totalSubmission >= 1000000 && !confetti.isRunning()) confetti.start(); 
             }
         }
 
